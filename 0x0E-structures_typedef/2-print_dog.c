@@ -1,13 +1,11 @@
+#include "dog.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include "dog.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * print_dog - Prints a struct dog.
+ * @d: The struct dog to be printed.
  */
-
 void print_dog(struct dog *d)
 {
 	if (d == NULL)
