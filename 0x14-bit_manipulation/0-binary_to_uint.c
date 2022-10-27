@@ -14,12 +14,12 @@ if (!check_valid_string(b))
 return (0);
 
 while (b[str_len] != '\0')
-str_len++;
+	str_len++;
 
 while (str_len)
 {
-decimal += ((b[str_len - 1] - '0') * base);
-base *= 2;
+	decimal += ((b[str_len - 1] - '0') * base);
+	base *= 2;
 str_len--;
 }
 return (decimal);
@@ -40,7 +40,7 @@ while (*b)
 {
 if (*b != '1' && *b != '0')
 return (0);
-b++;
+	b++;
 }
 return (1);
 }
