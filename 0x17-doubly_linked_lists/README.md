@@ -65,7 +65,7 @@ Great! You've completed the quiz successfully! Keep going! (Show quiz)
 Tasks
 0. Print list
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
+Score: 50.00% (Checks completed: 100.00%)
 Write a function that prints all the elements of a dlistint_t list.
 
 Prototype: size_t print_dlistint(const dlistint_t *h);
@@ -120,7 +120,7 @@ File: 0-print_dlistint.c
      
 1. List length
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
+Score: 50.00% (Checks completed: 100.00%)
 Write a function that returns the number of elements in a linked dlistint_t list.
 
 Prototype: size_t dlistint_len(const dlistint_t *h);
@@ -171,7 +171,7 @@ File: 1-dlistint_len.c
      
 2. Add node
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
+Score: 50.00% (Checks completed: 100.00%)
 Write a function that adds a new node at the beginning of a dlistint_t list.
 
 Prototype: dlistint_t *add_dnodeint(dlistint_t **head, const int n);
@@ -222,7 +222,7 @@ File: 2-add_dnodeint.c
      
 3. Add node at the end
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
+Score: 50.00% (Checks completed: 100.00%)
 Write a function that adds a new node at the end of a dlistint_t list.
 
 Prototype: dlistint_t *add_dnodeint_end(dlistint_t **head, const int n);
@@ -273,7 +273,7 @@ File: 3-add_dnodeint_end.c
      
 4. Free list
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
+Score: 50.00% (Checks completed: 100.00%)
 Write a function that frees a dlistint_t list.
 
 Prototype: void free_dlistint(dlistint_t *head);
@@ -339,7 +339,7 @@ File: 4-free_dlistint.c
      
 5. Get node at index
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
+Score: 50.00% (Checks completed: 100.00%)
 Write a function that returns the nth node of a dlistint_t linked list.
 
 Prototype: dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
@@ -397,7 +397,7 @@ File: 5-get_dnodeint.c
      
 6. Sum list
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
+Score: 50.00% (Checks completed: 100.00%)
 Write a function that returns the sum of all the data (n) of a dlistint_t linked list.
 
 Prototype: int sum_dlistint(dlistint_t *head);
@@ -446,7 +446,7 @@ File: 6-sum_dlistint.c
      
 7. Insert at index
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
+Score: 0.00% (Checks completed: 0.00%)
 Write a function that inserts a new node at a given position.
 
 Prototype: dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
@@ -486,22 +486,22 @@ int main(void)
     free_dlistint(head);
     head = NULL;
     return (EXIT_SUCCESS);
-OBOBOB}
+}
 julien@ubuntu:~/0x17. Doubly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 7-main.c 2-add_dnodeint.c 3-add_dnodeint_end.c 0-print_dlistint.c 4-free_dlistint.c 7-insert_dnodeint.c -o j
 julien@ubuntu:~/0x17. Doubly linked lists$ ./j 
-OBOBOB0
+0
 1
 2
 3
-OBOBOB4
+4
 98
 402
-OBOBOB1024
+1024
 -----------------
 0
 1
 2
-OBOBOB3
+3
 4
 4096
 98
@@ -516,7 +516,7 @@ File: 7-insert_dnodeint.c, 2-add_dnodeint.c, 3-add_dnodeint_end.c
      
 8. Delete at index
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
+Score: 0.00% (Checks completed: 0.00%)
 Write a function that deletes the node at index index of a dlistint_t linked list.
 
 Prototype: int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
@@ -655,7 +655,7 @@ File: 8-delete_dnodeint.c
      
 9. Crackme4
 #advanced
-Score: 0.0% (Checks completed: 0.0%)
+Score: 50.00% (Checks completed: 100.00%)
 Find the password for crackme4.
 
 Save the password in the file 100-password
@@ -669,7 +669,7 @@ File: 100-password
      
 10. Palindromes
 #advanced
-Score: 0.0% (Checks completed: 0.0%)
+Score: 0.00% (Checks completed: 0.00%)
 A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
 
 Find the largest palindrome made from the product of two 3-digit numbers.
@@ -684,7 +684,7 @@ File: 102-result
      
 11. crackme5
 #advanced
-Score: 0.0% (Checks completed: 0.0%)
+Score: 50.00% (Checks completed: 100.00%)
 Write a keygen for crackme5.
 
 Usage of the crackme: ./crackme5 username key
@@ -703,3 +703,4 @@ GitHub repository: alx-low_level_programming
 Directory: 0x17-doubly_linked_lists
 File: 103-keygen.c
      
+
